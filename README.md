@@ -1,24 +1,6 @@
-# README
+# Code Caverns API
+Ruby on Rails back end API for Code Caverns. Records User game data (position, incomplete/completed challenges).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+GitHub (front): https://github.com/mattgellert/code-caverns-front-end
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+GitHub (back): https://github.com/mattgellert/code-caverns-back-end

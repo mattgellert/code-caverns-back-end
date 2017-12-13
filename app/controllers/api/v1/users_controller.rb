@@ -22,7 +22,10 @@ module Api
       end
 
       def save_game
-        @user = User.find_or_create_by(username: params[:username])
+        if params[:username]
+          @user = User.find_or_create_by(username: params[:username])
+        end
+
         if params[:challenge_id]
           @challenge = Challenge.find(params[:challenge_id])
           @challenge.update(data: params[:challenge], xPos: params[:xPos], yPos: params[:yPos], mapDeltaX: params[:mapDeltaX], mapDeltaY: params[:mapDeltaY])
